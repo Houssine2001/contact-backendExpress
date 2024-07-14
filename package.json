@@ -1,0 +1,28 @@
+{
+  "name": "mycontacts-backend",
+  "version": "1.0.0",
+  "description": "this is express project for my contacts backend api",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Houssine2001/contact-backendExpress.git"
+  },
+  "author": "Houssine Ben Arous",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Houssine2001/contact-backendExpress/issues"
+  },
+  "homepage": "https://github.com/Houssine2001/contact-backendExpress#readme",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}
